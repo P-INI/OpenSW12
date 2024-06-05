@@ -9,6 +9,7 @@ public class PlayerMove : MonoBehaviour
     private Rigidbody playerrigid;
     void Start()
     {
+        this.enabled = false;                       // 게임시작 버튼 누르기 전 초기에 못 움직이게 설정
         playerrigid = GetComponent<Rigidbody>();
     }
     

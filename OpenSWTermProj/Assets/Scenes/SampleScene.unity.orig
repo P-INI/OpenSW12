@@ -613,8 +613,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
-  jumppower: 15
-  cameratrans: {fileID: 1568577517}
+<<<<<<< .merge_file_jdezth
+  jumppower: 14
 --- !u!1 &467652702
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,6 +731,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Background: {fileID: 1454086347}
+=======
+  jumppower: 15
+  cameratrans: {fileID: 1568577517}
+>>>>>>> .merge_file_Mvhsej
 --- !u!1001 &536869790
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1044,58 +1048,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d9a7525f49644a4f87d534fca3ec69e, type: 3}
---- !u!1 &1568577516
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1568577517}
-  - component: {fileID: 1568577518}
-  m_Layer: 0
-  m_Name: Camera_Arm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1568577517
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1568577516}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 330585546}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1568577518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1568577516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6efcf28b08deacc44b06f576ca857267, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 414550930}
-  distance: 25
-  sensitivityX: 4
-  sensitivityY: 2
-  minYAngle: -20
-  maxYAngle: 80
+<<<<<<< .merge_file_jdezth
 --- !u!1 &1061651405
+=======
+--- !u!1 &1568577516
+>>>>>>> .merge_file_Mvhsej
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1103,6 +1060,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< .merge_file_jdezth
   - component: {fileID: 1061651406}
   - component: {fileID: 1061651408}
   - component: {fileID: 1061651407}
@@ -1591,23 +1549,40 @@ GameObject:
   - component: {fileID: 1605152459}
   m_Layer: 5
   m_Name: QuitButton
+=======
+  - component: {fileID: 1568577517}
+  - component: {fileID: 1568577518}
+  m_Layer: 0
+  m_Name: Camera_Arm
+>>>>>>> .merge_file_Mvhsej
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< .merge_file_jdezth
 --- !u!224 &1605152458
 RectTransform:
+=======
+--- !u!4 &1568577517
+Transform:
+>>>>>>> .merge_file_Mvhsej
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< .merge_file_jdezth
   m_GameObject: {fileID: 1605152457}
+=======
+  m_GameObject: {fileID: 1568577516}
+  serializedVersion: 2
+>>>>>>> .merge_file_Mvhsej
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+<<<<<<< .merge_file_jdezth
   - {fileID: 1679435827}
   m_Father: {fileID: 1454086348}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1959,11 +1934,18 @@ MonoBehaviour:
   m_RepeatDelay: 0.5
   m_ForceModuleActive: 0
 --- !u!114 &1941669478
+=======
+  - {fileID: 330585546}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1568577518
+>>>>>>> .merge_file_Mvhsej
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< .merge_file_jdezth
   m_GameObject: {fileID: 1941669476}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1988,6 +1970,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 1568577516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6efcf28b08deacc44b06f576ca857267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 414550930}
+  distance: 25
+  sensitivityX: 4
+  sensitivityY: 2
+  minYAngle: -20
+  maxYAngle: 80
+>>>>>>> .merge_file_Mvhsej
 --- !u!1001 &9218986963702939744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2063,11 +2059,14 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 9218986963702939744}
-  - {fileID: 414550930}
   - {fileID: 232487880}
   - {fileID: 536869790}
   - {fileID: 996648121}
   - {fileID: 573325326}
-  - {fileID: 1568577517}
+<<<<<<< .merge_file_jdezth
   - {fileID: 1941669479}
   - {fileID: 467652707}
+=======
+  - {fileID: 1568577517}
+  - {fileID: 414550930}
+>>>>>>> .merge_file_Mvhsej

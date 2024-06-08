@@ -18,12 +18,16 @@ public class Managers : MonoBehaviour
     static HashSet<GameObject> _monsters = new HashSet<GameObject>();
     void Start()
     {
-        Init();
+        this.enabled = false;
     }
 
     void Update()
     {
-
+        if (this.enabled == true)
+        {
+            Init();
+            this.enabled = false;
+        }
     }
 
     static void Init()

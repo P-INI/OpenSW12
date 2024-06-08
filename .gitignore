@@ -55,6 +55,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 <<<<<<< HEAD
+<<<<<<< HEAD
 Library/
 Logs/
 Packages/
@@ -69,3 +70,6 @@ Packages/
 UserSettings/
 obj/Debug/
 >>>>>>> feature_Geon
+=======
+OpenSWTermProj/Library/PackageCache/com.unity.burst@1.8.12/.Runtime/libburst-llvm-16.dylib
+>>>>>>> feature_DosangE_Temp

@@ -12,6 +12,7 @@ public class PlayerMove : MonoBehaviour
     public Animator animator;
     void Start()
     {
+        this.enabled = false;
         playerrigid = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
     }

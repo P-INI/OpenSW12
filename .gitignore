@@ -54,6 +54,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+<<<<<<< HEAD
 Library/
 Logs/
 Packages/
@@ -61,3 +62,10 @@ UserSettings/
 obj/Debug/
 OpenSWTermProj/Library/
 
+=======
+OpenSWTermProj/Library/
+Logs/
+Packages/
+UserSettings/
+obj/Debug/
+>>>>>>> feature_Geon

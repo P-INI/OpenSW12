@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: a61ccf8502799eb4195cf42bbdaea540
+=======
+guid: 69c1e121989366540bdb8fe12ec5aa08
+>>>>>>> feature_INI_Animation
 DefaultImporter:
   externalObjects: {}
   userData: 

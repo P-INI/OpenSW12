@@ -10,10 +10,15 @@ public class MainMenu : MonoBehaviour
     public GameObject BackImage;    // 게임방법 화면
     public GameObject Background;   // 초기화면 
     public GameObject player;       // PlayMove의 player 
+    public CameraControl cameracontrol;       // CameraControl 코드
+    public GameObject IngameImage;  // 인게임 화면
+    public InGameScore inGamescore; // InGameScore 스크립트를 참조하는 변수
+
     // Start is called before the first frame update
     void Start()
     {
         BackImage.SetActive(false); // 게임방법 화면 비활성화 
+        IngameImage.SetActive(false); // 게임방법 화면 비활성화 
     }
 
     // Update is called once per frame
@@ -27,6 +32,10 @@ public class MainMenu : MonoBehaviour
         player.GetComponent<PlayerMove>().enabled = true;
         GameObject.Find("@Managers").GetComponent<Managers>().enabled = true;
         Background.SetActive(false);    // 초기화면 비활성화
+        cameracontrol.StartGame();      // CameraControl 코드에서 StratGame() 실행해
+                                        // 시점이 마우스를 쫓아가도록 설정
+        IngameImage.SetActive(true);    // 인게임 화면 활성화 
+        inGamescore.StartGame();        // 인게임스코어 시작
     }
     public void ChangeHowToPlay()    // 초기화면 비활성화, 게임방법화면 활성화
     {

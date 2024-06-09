@@ -1,7 +1,4 @@
-# This .gitignore file should be placed at the root of your Unity project directory
-#
-# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-#
+<<<<<<< HEAD
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -9,6 +6,19 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+=======
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+#
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+>>>>>>> feature_changmin
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -46,28 +56,42 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
-
-# Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
-
-# Unity3D generated file on crash reports
 sysinfo.txt
-
-# Builds
 *.apk
 *.aab
 *.unitypackage
 *.app
-
-# Crashlytics generated file
 crashlytics-build.properties
-
-# Packed Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
-
-# Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+OpenSWTermProj/Library/
+>>>>>>> feature_changmin
+Library/
+Logs/
+Packages/
+UserSettings/
+<<<<<<< HEAD
+obj/Debug/
+OpenSWTermProj/Library/
+
+=======
+OpenSWTermProj/Library/
+Logs/
+Packages/
+UserSettings/
+obj/Debug/
+>>>>>>> feature_Geon
+=======
 OpenSWTermProj/Library/PackageCache/com.unity.burst@1.8.12/.Runtime/libburst-llvm-16.dylib
+>>>>>>> feature_DosangE_Temp
+=======
+obj/Debug/
+>>>>>>> feature_changmin
